@@ -29,7 +29,7 @@ body {
 #connections-list,
 .tools-list,
 #skills-list,
-.views{
+.views {
     margin: 0px;
     list-style: none;
     display: flex;
@@ -46,20 +46,21 @@ body {
     display: inline;
 }
 
-.nav-item:hover{
-	color: #FFF;
+.nav-item:hover {
+    color: #FFF;
 }
 
-.underline{
-	width: 10vw
+.underline {
+    width: 10vw
 }
+
 /**welcome Section Css**/
 
 #welcome-section {
     background-attachment: fixed;
     color: white;
     background-image: linear-gradient(rgba(20, 15, 15, 0.63), rgba(20, 15, 15, 0.63)),
-    url('../images/zan-ASDnnQ74qMs-unsplash2.jpg');
+        url('https://bit.ly/2P1uIsj');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -111,7 +112,7 @@ a.entry-link {
     display: table-cell;
     background-color: #E6E2DD;
     padding: 30px;
-    
+
     text-align: center;
     vertical-align: middle;
     align-content: center;
@@ -131,7 +132,7 @@ a.entry-link {
     margin-bottom: 10px;
     font-size: 2em;
     text-align: center;
-    color: rgb(29, 128, 159) ;
+    color: rgb(29, 128, 159);
 }
 
 #intro p {
@@ -141,8 +142,8 @@ a.entry-link {
 /**Skillset section CSS**/
 
 #skillset {
-	padding-top: 20px;
-	padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
     vertical-align: middle;
 }
@@ -184,16 +185,18 @@ a.entry-link {
     padding-top: 30px;
     font-size: 12px;
 }
-#projects h1{
-	font-size: 3em;
-	color: rgb(29, 128, 159) ;
+
+#projects h1 {
+    font-size: 3em;
+    color: rgb(29, 128, 159);
 }
+
 /**Project section WEB css**/
 #web-projects-wrapper,
 #android-projects-wrapper {
     text-align: center;
     padding-bottom: 15px;
-	
+
 }
 
 #web {
@@ -212,28 +215,35 @@ img.project-image {
     display: block;
 }
 
-.tools-list, .views {
+.tools-list,
+.views {
     padding-top: 5px;
-font-family: 'Heebo', sans-serif;}
+    font-family: 'Heebo', sans-serif;
+}
 
 .tools-list li {
-	color: #FFFFFF;
-    padding-left: 5px; 
+    color: #FFFFFF;
+    padding-left: 5px;
     padding-right: 5px;
 
 }
-.tools-list{
-	font-size: 17px;
+
+.tools-list {
+    font-size: 17px;
 }
-.view{
-	color: #FFFFFF;
-	padding-left: 15px;
-	padding-right: 15px;
-	font-size: 24px;
-	padding-bottom: 10px;
+
+.view {
+    color: #FFFFFF;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 24px;
+    padding-bottom: 10px;
 }
-.view:hover{
-	color: rgb(29, 128, 159) ; }
+
+.view:hover {
+    color: rgb(29, 128, 159);
+}
+
 /**Project section android css**/
 #android-projects-wrapper {
     text-align: center;
@@ -241,24 +251,25 @@ font-family: 'Heebo', sans-serif;}
 
 .project-tile {
     background-color: rgba(112, 112, 112, 0.9);
--webkit-box-shadow: 4px 4px 7px -5px rgba(0,0,0,0.75);
--moz-box-shadow: 4px 4px 7px -5px rgba(0,0,0,0.75);
-box-shadow: 4px 4px 7px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 4px 4px 7px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 4px 7px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 4px 7px -5px rgba(0, 0, 0, 0.75);
     -webkit-border-bottom-right-radius: 7px;
     -webkit-border-bottom-left-radius: 7px;
     -moz-border-radius-bottomright: 7px;
     -moz-border-radius-bottomleft: 7px;
     border-bottom-right-radius: 7px;
     border-bottom-left-radius: 7px;
-    
+
 }
 
-.project-tile:hover{
-	background-color:rgb(236, 184, 7);
-	-webkit-box-shadow: 1px 0px 7px 1px rgba(61, 60, 54, 0.75);
+.project-tile:hover {
+    background-color: rgb(236, 184, 7);
+    -webkit-box-shadow: 1px 0px 7px 1px rgba(61, 60, 54, 0.75);
     -moz-box-shadow: 1px 0px 7px 1px rgba(61, 60, 54, 0.75);
     box-shadow: 1px 0px 7px 1px rgba(61, 60, 54, 0.75);
 }
+
 #android {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -316,34 +327,49 @@ a.entry-link:hover {
     -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.75);
-    background-color:rgb(29, 128, 159);
-    color:#FFF;
+    background-color: rgb(29, 128, 159);
+    color: #FFF;
 }
 
-#feedback{
-	width: 100%;
-padding-top: 20px;
-padding-bottom: 20px;
-text-align: center;}
-#feedback-div{margin:auto;
-max-width: 700px;
-text-align: center;
+#feedback {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(20, 15, 15, 0.63), rgba(20, 15, 15, 0.63)),
+        url('https://bit.ly/2Dkoqyf');
+         background-size:contain, cover;
+    background-repeat: no-repeat;
 }
-#feedback-form{
-	margin: auto;
-	width: 90%;
+
+#feedback-div {
+    margin: auto;
+    max-width: 650px;
+    text-align: center;
 }
-.form-group{
-	text-align: start;
-	margin: auto;
+
+#feedback-form {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+        background-color: #fff;
+
 }
-.form-group input{
-	height: 25px;
+
+.form-group {
+    text-align: start;
+    margin: auto;
+}
+
+.form-group input {
+    height: 25px;
     width: 96%;
     border: 1px solid #ccc;
     padding-left: 2%;
     padding-right: 2%
 }
+
 .form-group textarea {
     margin-top: 0px;
     padding-left: 1%;
@@ -353,24 +379,28 @@ text-align: center;
     border: 1px solid #ccc;
     resize: none;
 }
+
 .form-group button {
     padding-left: 0px;
     padding-right: 0px;
     height: 40px;
-        font-size: 1.3em;
+    font-size: 1.3em;
     width: 100%;
     font-family: 'Noto Sans', sans-serif;
     border: 0px solid #ccc;
-    background-color: rgba(112, 112, 112, 0.9);;
-    color:#FFF;}
+    background-color: rgba(112, 112, 112, 0.9);
+    ;
+    color: #FFF;
+}
 
-    .form-group button:hover{
-    		background-color:rgb(236, 184, 7);
+.form-group button:hover {
+    background-color: rgb(236, 184, 7);
 
-    }
+}
+
 /**Connections Section**/
 #connections {
-    background-color:rgb(29, 128, 159);
+    background-color: rgb(29, 128, 159);
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -395,20 +425,21 @@ text-align: center;
     flex-wrap: wrap;
 }
 
-.connects{
+.connects {
     padding: 20px;
     font-size: 2em;
     color: #FFF;
 }
-.connects:hover{
-	color: rgb(236, 184, 7) ;
+
+.connects:hover {
+    color: rgb(236, 184, 7);
 }
 
 
 
 @media only screen and (min-width: 768px) {
 
-  
+
     a.nav-item {
         font-size: 1.2em;
         padding-left: 16px;
@@ -430,10 +461,10 @@ text-align: center;
 
 }
 
- @media only screen and (min-width: 600px) {
-	 div#web {
+@media only screen and (min-width: 600px) {
+    div#web {
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         grid-gap: 20px;
         width: 80%;
 
-}
+    }
