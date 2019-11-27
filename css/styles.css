@@ -435,7 +435,7 @@ a.entry-link:hover {
     color: rgb(236, 184, 7);
 }
 
-
+#contact-details{list-style: none;}
 
 @media only screen and (min-width: 768px) {
 
