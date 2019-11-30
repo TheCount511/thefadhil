@@ -430,8 +430,9 @@ a.entry-link:hover {
     font-size: 2em;
     color: #FFF;
 }
-
-.connects:hover {
+#email-link{color: #fff;
+text-decoration: none;}
+a#email-link:hover, .connects:hover {
     color: rgb(236, 184, 7);
 }
 
